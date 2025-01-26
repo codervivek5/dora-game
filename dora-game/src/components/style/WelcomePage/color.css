@@ -1,0 +1,15 @@
+section
+{
+    animation: changeColor 50s linear infinite;
+}
+
+@keyframes changeColor
+{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(3600deg);
+    }
+    
+}
